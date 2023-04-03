@@ -1,0 +1,6 @@
+.container {
+    position: relative;
+    display: flex;
+    width: 500;
+    color: var(--palette-grey)
+}

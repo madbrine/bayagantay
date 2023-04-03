@@ -1,0 +1,32 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex:1;
+}
+.item {
+    flex: 1
+}
+.value {
+    font-size: 97px;
+}
+.text {
+    font-size: 23px;
+}
+@media (max-width: 1300px) {
+    .container {
+        flex-direction: column;
+    }
+    .value {
+        font-size: 33px;
+    }
+    .text {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+.center {
+    background-color: rgb(172, 172, 172);
+    width: 60px;
+    height: 2000px;
+}
+.side-box {
+    display: block;
+}
+.side-left {
+    width: 10px;
+    height: 1990px;
+    background-color: #c8c8c8;
+}
+.triangle-left {
+    height: 10px;
+    width: 10px;
+  background-image:
+  linear-gradient(to bottom right, transparent 50%, #c8c8c8 0);
+}
+.side-right {
+    width: 10px;
+    height: 1990px;
+    background-color: rgb(138, 138, 138);
+}
+.triangle-right {
+    height: 10px;
+    width: 10px;
+  background-image:
+  linear-gradient(to bottom left, transparent 50%, rgb(138, 138, 138) 0);
+}

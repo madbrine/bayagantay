@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  --palette-red: #cf2e00;
+  --palette-orange: #da9638;
+  --palette-black: #1f221e;
+  --palette-grey: #ccdedc;
+  --palette-marine: #35b3af;
+  --palette-ocher: #d1b89e;
+  --palette-yellow: #f6e04a;
+  --palette-blue: #1d89c1;
+  --palette-green: #759047;
+  background-color: var(--palette-grey);
+}
+div {
+  z-index: 2;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.main-page-jalousie {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 120%;
+  background-color: var(--palette-black);
+  z-index: 10;
+}

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--palette-black);
+}
+.start-years {
+    margin-top: 300px;
+    margin-bottom: 400px;
+}
